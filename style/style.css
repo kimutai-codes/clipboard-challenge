@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap');
+* {
+	/*font-size: 18px;*/
+	font-family: 'Bai Jamjuree', sans-serif;
+	margin: 0rem;
+	padding: 0rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+p {
+	color: hsl(201, 11%, 66%);
+	font-size: 1.125rem;
+	padding: 10px;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+	padding: 0.9375em;
+	border-radius: 50px;
+}
+
+li a {
+	color: white;
+	font-weight: bold;
+	font-size: 1.125em;
+}
+
+.iOS {
+	background-color: hsl(171, 66%, 44%);
+	color: white;
+}
+.Mac {
+	background-color: hsl(233, 100%, 69%);
+}
+
+header {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper,
+.bottom {
+	padding: 100px;
+}
+
+.logo {
+	text-align: center;
+	background-image: url(/images/bg-header-desktop.png);
+	padding: 80px;
+	margin: 0px;
+}
+
+.hist {
+	text-align: center;
+}
+
+.snippets {
+	text-align: center;
+}
+
+.snip {
+	display: flex;
+}
+
+.comp img {
+	width: 100%;
+	height: auto;
+}
+
+.clipboard {
+	text-align: center;
+}
+
+.clipboard img {
+	width: 90%;
+	height: auto;
+}
+
+.supercharge {
+	text-align: center;
+}
+
+.details {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.logos {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 40px 0px;
+}
+div {
+	padding: 0px 20px;
+}
+
+.Google,
+.IBM,
+.Microsoft,
+.hp,
+.vector {
+	padding: 5px;
+}
+
+.for {
+	text-align: center;
+}
+
+/*.footer{
+	background-color: hsl(210, 10%, 33%);
+}*/
+
+.bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: rgb(243, 243, 243);
+	height: auto;
+	padding: 5px 15px;
+}
+div {
+	padding: 5px;
+}
+
+.blaa {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.bottom-logo img {
+	width: 60%;
+	height: auto;
+}
+
+.social img {
+	padding: 0px 10px;
+	float: right;
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+	body {
+		font-size: 1.125em;
+		font-weight: 400;
+	}
+
+	div {
+		padding-top: 40px;
+	}
+
+	.wrapper {
+		padding: 20px;
+	}
+
+	.Download {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	li {
+		list-style: none;
+		display: inline-block;
+		margin: 3px 0px;
+		padding: 0.625em;
+		border-radius: 50px;
+	}
+
+	li a {
+		color: white;
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	.logo {
+		text-align: center;
+		background-image: url(/images/bg-header-mobile.png);
+		padding: 80px;
+		margin: 0px;
+	}
+
+	.snip {
+		flex-direction: column;
+	}
+
+	.details {
+		flex-direction: column;
+	}
+
+	.logos {
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	.Google,
+	.IBM,
+	.Microsoft,
+	.hp,
+	.vector {
+		padding: 5px;
+	}
+
+	.vector {
+		padding-top: 5px;
+	}
+	.bottom {
+		flex-direction: column;
+		text-align: center;
+	}
+	.blaa {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+
+
+.attribution {
+	background-color: rgb(243, 243, 243);
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+} 
+
+
